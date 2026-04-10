@@ -15,7 +15,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://tradex-real-time-stock-trading-simulator-zao0.onrender.com',
+        target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false
       }
