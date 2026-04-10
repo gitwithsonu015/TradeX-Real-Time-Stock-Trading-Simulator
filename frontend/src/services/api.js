@@ -2,7 +2,7 @@ import axios from 'axios'
 import useAuthStore from '../store/authStore.js'
 
 export const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://tradex-real-time-stock-trading-simulator-zao0.onrender.com",
   headers: {
     'Content-Type': 'application/json'
   }
